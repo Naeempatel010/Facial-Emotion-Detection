@@ -83,5 +83,5 @@ for index, row in data.iterrows():
     print("Progress: {}/{} {:.2f}%".format(index, total, index * 100.0 / total))
 
 print("Total: " + str(len(images)))
-np.save(join(SAVE_DIRECTORY, SAVE_DATASET_IMAGES_FILENAME), images)
+np.save(SAVE_DATASET_IMAGES_FILENAME, images)
 np.save(join(SAVE_DIRECTORY, SAVE_DATASET_LABELS_FILENAME), labels)
