@@ -13,7 +13,7 @@ Pillow==5.1.0
 protobuf==3.5.2.post1
 python-dateutil==2.7.2
 pytz==2018.4
-PyYAML==5.1
+PyYAML==5.4
 scikit-learn
 scipy
 six==1.11.0
